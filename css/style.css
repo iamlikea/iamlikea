@@ -11,15 +11,17 @@ body {
     min-height: 100%;
 }
 
-header, footer {
+header {
     position: fixed;
     width: 100%;
     align-items: center;
 }
 
 footer {
-    bottom: 0;
-    height: 7vh;
+    position: absolute;
+    width: 100%;
+    bottom: -1000px;
+    height: 50vh;
     background: rgb(235, 235, 235);
 }
 
@@ -81,9 +83,7 @@ header ul li a {
     width: 100%;
     background-image: url(../img/bckgrd.png);
     background-size: cover;
-    min-height: 100%;
-    text-transform: uppercase;
-    margin-top: -20px;
+    min-height: 110%;
 }
 
 .home-opacity {
@@ -95,14 +95,19 @@ header ul li a {
     top: 0;
 }
 
-
-h2 {
+.tagline h2 {
+    position: absolute;
     padding-top: 25%;
     margin: 20px 180px;
     font-size: 20px;
-    font-family: bignoodletitling;
-    color: rgb(75, 74, 74);
-    letter-spacing: 6px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(240, 240, 240);
+    letter-spacing: 5px;
+    word-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: -20px;
+    line-height: 1.2;
+    text-shadow: 1px 1px 2px #000;
 }
 
 header .cool-link a:hover{
@@ -121,8 +126,10 @@ header .cool-link a:hover{
     position: absolute;
     width: 100%;
     min-height: 100vh;
-    background-color: #e3e2de;
-    top: 675px;
+    /* background-color: #e3e2de; */
+    background-color: green;
+    top: 695px;
+    /* overflow: auto; */
 }
 
 .event h2 {
