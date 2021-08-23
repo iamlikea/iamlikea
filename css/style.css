@@ -162,5 +162,26 @@ footer  h3 {
 
 footer h2, footer h3 {
     margin-left: 80px;
-    /* background-color: green; */
+}
+
+.event {
+    font-family: 'Nunito', sans-serif;
+}
+
+.event h1 {
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 0%);
+    -webkit-text-stroke: 1px transparent;
+    font-size: 30px;
+    margin-top: 30px;
+    letter-spacing: 4px;
+}
+
+.event hr {
+    max-width: 50px;
+    border-color: black;
+    border-width: 1px;
+    margin-left: 650px;   
+    margin-top: 20px;
 }
