@@ -1,36 +1,42 @@
 <!DOCTYPE html>
 <html lang="en" >
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iamlikea</title>
-    <link rel="icon" href="img/final-favicon.png" sizes="32x32">
-    <!-- <link rel="stylesheet" href="img/final-favicon.png"> -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body> 
-    <header>
-            <a href="home.html"><img alt="iamlikea" src="img/logo.png"></a>
-            <ul class="cool-link">
-                <li><a class="active" href="home.html">home</a></li>
-                <li><a href="blog.html">blog</a></li>
-                <li><a href="minimalism.html">minimalism</a></li>
-                <li><a href="events.html">events</a></li>
-                <li><a href="contact.html">contact</a></li>
-            </ul>
-    </header>
-    <section class="banner">
-        <h2>to do everything with minimalism</h2>
-    </section>
-
-    <script type="text/javascript">
-        window.addEventListener("scroll", function(){
-            var header = document.querySelector("header");
-            header.classList.toggle("sticky", window.scrollY > 0);
-        })
-    </script>
-
-
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>iamlikea</title>
+      <link rel="icon" href="img/final-favicon.png" sizes="32x32">
+      <!-- <link rel="stylesheet" href="img/final-favicon.png"> -->
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <header>
+         <a href="home.html"><img alt="iamlikea" src="img/logo.png"></a>
+         <ul class="cool-link">
+            <li><a class="active" href="home.html">home</a></li>
+            <li><a href="blog.html">blog</a></li>
+            <li><a href="minimalism.html">minimalism</a></li>
+            <li><a href="events.html">events</a></li>
+            <li><a href="contact.html">contact</a></li>
+         </ul>
+      </header>
+      <section class="banner">
+         <section class="home-opacity"></section>
+         <h2>to explore everything with minimalism</h2>
+      </section>
+      <section class="event">
+         <h2>event</h2>
+      </section>
+      <footer>
+         <h2>iamlikea</h2>
+         <h3>Copyright © 2021 All rights reserved.</h3>
+      </footer>
+      
+      <script type="text/javascript">
+         window.addEventListener("scroll", function(){
+             var header = document.querySelector("header");
+             header.classList.toggle("sticky", window.scrollY > 0);
+         })
+      </script>
+   </body>
 </html>
